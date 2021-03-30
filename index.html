@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade!</h1>
+    </header>
+    
+    <section>
+        <div>
+            <p> Ano de Nascimento:
+                <input type="number" id="idade" min="0">
+            </p>
+            <p> Sexo:
+                <input type="radio" name="radiosex" id="sexom" checked> 
+                 <label for="sexom">Masculino</label>
+                <input type="radio" name="radiosex" id="sexof"> 
+                <label for="sexof">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div> 
+
+        <div id="res">
+         Preencha para verificar o resultado!
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy;EdrielleProduction</p>
+    </footer>
+  
+    <script src="text.js"></script>
+</body>
+</html>
